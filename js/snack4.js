@@ -11,7 +11,9 @@ let sum = 0;
 
 // creo ciclo per fare la somma dei numeri dispari
 for(let i = 0; i < number.length; i = i +2){
-    if(!(number[i] % 2 == 0)){
+    if(i % 2 === 0){
+        
+    } else {
         sum += number[i]
     }
 
@@ -25,7 +27,9 @@ let sum = 0;
 let i = 0;
 
 while(i < number.length){
-    if(!(number[i] % 2 == 0)){
+    if(i % 2 === 0){
+        
+    } else {
         sum += number[i]
     }
     i++
